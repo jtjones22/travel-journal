@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#root {
+    width: 500px;
+}
+
+.navbar {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar--globe {
+    width: 20px;
+    filter: invert(100%);
+    margin-right: 5px;
+}
+
+.navbar--title {
+    font-size: small;
+    font-family: Quicksand;
+}
