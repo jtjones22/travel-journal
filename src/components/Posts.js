@@ -15,7 +15,7 @@ export default function Posts(props) {
                     className="posts--info-location-icon" />
                     <h6 className="posts--info-location-name">{props.item.location}</h6>
                     <h6 className="posts--info-location-map">
-                        <a href="">View on Google Maps</a>
+                        <a href={`https://www.google.com/maps/place/${props.item.location}`}>View on Google Maps</a>
                     </h6>
                 </div>
                 <div className="posts--info-about">
